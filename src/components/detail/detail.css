@@ -1,0 +1,65 @@
+.detailHeader{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: space-between;
+    padding: 0 calc(50% - 660px);
+}
+
+.header_content_left{
+    width: 640px
+}
+
+.header_content_right{
+    width: 500px;
+}
+
+.emptyImagebox{
+    border-radius: 10px;
+    border: 1px solid #eaeef5;
+    max-height: 500px;
+    padding: 0 16px;
+}
+
+.pageTitle{
+    width: 100%;
+    margin-bottom: 14px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #333;
+}
+
+.pageDescription{
+    width: 100%;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+}
+
+.MyModelCard{
+    display: inline-block;
+    width: 420px;
+    height: 204px;
+    margin: 0 15px 30px;
+    vertical-align: middle;
+}
+
+.Modeldescription{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    min-height: 45px;
+}
+
+
+.Modeltitle{
+    max-height: 48px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

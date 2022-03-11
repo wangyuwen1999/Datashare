@@ -1,0 +1,106 @@
+.modelblock{
+    margin-top: 10px;
+}
+
+.subpage{
+    margin: 20px;
+}
+
+.ModelHeader{
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.ModelItem{
+    margin-top: 20px;
+}
+
+.ModelItem-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ModelItem-Name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.ModelItem-Time{
+    font-size: 25px;
+    font-weight: bold;
+    color: #8590a6;
+}
+
+.ModelItem-Owner{
+    font-weight: 600;
+    font-size: 18px;
+    color: gray;
+}
+
+.ModelItem-Description{
+    font-size: 18px;
+    color: #121212;
+}
+
+.ModelItem-BottomList{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.ModelItem-BottomList-Item{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.relateBox{
+    margin-top: 15px;
+}
+
+.relateBox-shadow{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-style: solid;
+    overflow: hidden;
+    box-shadow: 0 0px 2px rgba(18,18,18,.1);
+}
+
+.relateBox-content{
+    margin: 10px 30px;
+}
+
+.relateBox-content-Header{
+    min-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.relateBox-content-content{
+
+}
+
+.DataItem{
+    margin-top: 10px;
+}
+
+.DataItem-name{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DataItem-description{
+    margin: 10px 0;
+    font-size: 18px;
+}

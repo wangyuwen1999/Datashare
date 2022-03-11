@@ -1,0 +1,14 @@
+.cardDescription{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.Tag-Item{
+    display: none;
+    line-height: 100%;
+    width: 80px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

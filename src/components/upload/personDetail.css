@@ -1,0 +1,196 @@
+.personbody{
+    width: 70%;
+    margin: 10px auto;
+}
+.personDetail{
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: grey;
+    background-color: white;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(18,18,18,.1);
+}
+
+.backgroundimage{
+    background-color: gray;
+    height: 200px;
+    overflow: hidden;
+    transition: 0.5s ease-out;
+}
+
+.backgroundimage:hover{
+    height: 400px;
+}
+
+.backgroundimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detailshowsbox{
+    background-color: white;
+    position: relative;
+}
+
+.detailbody{
+    position: relative;
+    margin: 0 20px 24px;
+}
+.personavtar{
+    width: 168px;
+    height: 168px;
+    position: absolute;
+    top: -25px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border: white 5px solid;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+    display: block;
+}
+
+.personavtar img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    background-color: gainsboro;
+}
+
+.personIdentity{
+    padding-top: 16px;
+    padding-left: 32px;
+    border-left: 164px solid transparent;
+}
+
+.userheader{
+    margin-bottom: 16px;
+}
+
+.username{
+    line-height: 30px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.userdescription{
+    margin-left: 6px;
+    font-size: 24px;
+    white-space: nowrap;
+    line-height: 1.6;
+    word-break: break-word;
+}
+
+.userbody{
+    position: relative;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.ProfileHeader-divider {
+    display: inline-block;
+    width: 1px;
+    height: 10px;
+    margin: 0 8px;
+    background: #ebebeb;
+}
+
+.userInfoItem{
+    margin-bottom: 10px;
+}
+
+.personMessage{
+    display: flex;
+    min-height: 80vh;
+}
+
+.userContent{
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: grey;
+    background-color: white;
+    overflow: hidden;
+    margin-right: 10px;
+    box-shadow: 0 1px 3px rgba(18,18,18,.1);
+}
+
+.userSider{
+    
+}
+
+.userSidercontent{
+    background-color: white;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: grey;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(18,18,18,.1);
+    padding: 10px 20px;
+}
+
+.userSiderPoints{
+    margin-top: 10px;
+    min-height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: grey;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(18,18,18,.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    font-size: 25px;
+}
+
+
+.userSiderPoints p{
+    margin:0;
+}
+
+
+.myDividerstyle{
+    margin: 2px 0;
+}
+
+.uploadFilebody{
+    
+}
+
+.siderHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.siderHeaderLeft img{
+    width: 70px;
+    height: 70px;
+}
+
+.siderHeaderLeft span{
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.siderHeaderRight{
+    padding-right: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.pointsicon{
+    color: #8590a6;
+    transition: 0.5s;
+}
+
+.pointsicon:hover{
+    color: #1890ff;
+}
+

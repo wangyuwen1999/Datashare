@@ -1,0 +1,93 @@
+.DataHeader{
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.DataItem{
+    margin-top: 20px;
+    width: 95%;
+}
+
+.DataItem-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.DataItem-Time{
+    font-size: 25px;
+    font-weight: bold;
+    color: #8590a6;
+}
+
+.DataItem-Name{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.DataItem-Owner{
+    font-weight: 600;
+    font-size: 18px;
+    color: gray;
+}
+
+.DataItem-Description{
+    font-size: 18px;
+    color: #121212;
+}
+
+.DataItem-BottomList{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.DataItem-BottomList-Item{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.relateBox{
+    margin-top: 15px;
+}
+
+.relateBox-shadow{
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-style: solid;
+    overflow: hidden;
+    box-shadow: 0 0px 2px rgba(18,18,18,.1);
+}
+
+.relateBox-content{
+    margin: 10px 30px;
+}
+
+.relateBox-content-Header{
+    min-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+.ModelItem{
+    margin-top: 10px;
+}
+
+.ModelItem-name{
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ModelItem-description{
+    margin: 10px 0;
+    font-size: 18px;
+}
+

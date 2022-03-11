@@ -1,0 +1,79 @@
+.ant-carousel .slick-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+#right_node{
+    position: relative;
+    margin-top: -100vh;
+    margin-left: 90vw;
+    height: 100vh;
+    width: 10vw;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.1s; 
+    z-index: 2;
+}
+
+#right_node:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#right_node Button{
+    width: 5rem;
+    height: 5rem;
+    opacity: inherit;
+}
+
+
+#left_node{
+    position: relative;
+    margin-top: -100vh;
+    height: 100vh;
+    width: 10vw;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.1s; 
+    z-index: 2;
+}
+
+#left_node:hover{
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#left_node Button{
+    width: 5rem;
+    height: 5rem;
+    opacity: inherit;
+}
+
+.leftwords{
+    position: relative;
+    height: 100vh;
+    width: 30vw;
+    margin-top: -100vh;
+    margin-left: 10vw;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftwords div{
+    min-width: 20vw;
+}
+.leftwords h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.leftwords p{
+    font-size: 25px;
+    color: #fff;
+}
